@@ -36,9 +36,14 @@ class User extends Authenticatable
     /**
      * The attributes that should be cast.
      *
-     * @var array<string, string>
+     * Get the post for the users
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function posts()
+    {
+        return $this->hasMany(Post::class);
+    }
 }
