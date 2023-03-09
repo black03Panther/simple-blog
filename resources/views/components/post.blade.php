@@ -8,12 +8,11 @@
             <div class="@if($leading) flex-1 @else mt-8 @endif flex flex-col justify-between">
                 <header @if($leading) class="mt-8 lg:mt-0" @endif>
                     <div class="space-x-2">
+                    @foreach($post->tags as $tag)
                         <a href="#"
-                            class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold"
-                            style="font-size: 10px">Techniques</a>
-                        <a href="#"
-                            class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs uppercase font-semibold"
-                            style="font-size: 10px">Updates</a>
+                            class="px-3 py-1 border border-{{$tag->color}}-300 rounded-full text-{{$tag->color}}-300 text-xs uppercase font-semibold"
+                            style="font-size: 10px">{{$tag->name}}</a>
+                            @endforeach
                     </div>
 
                     <div class="mt-4">
