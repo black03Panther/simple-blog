@@ -44,7 +44,7 @@
                         </div>
                     </div>
 
-                    <div class="text-pink-300 border-pink-300 text-fuchsia-300 border-fuchsia-300 text-rose-300 border-rose-300 text-purple-300 border-purple-300 text-violet-300 border-violet-300 text-indigo-300 border-indigo-300 text-cyan-300 border-cyan-300 text-teal-300 border-teal-300 text-emerald-300 border-emerald-300 text-green-300 border-green-300 text-lime-300 border-lime-300 text-yellow-300 border-yellow-300 text-amber-300 border-amber-300 text-orange-300 border-orange-300 "></div>
+                    <div class="text-pink-300 border-pink-300 text-fuchsia-300 border-fuchsia-300 text-rose-300 border-rose-300 text-purple-300 border-purple-300 text-violet-300 border-violet-300 text-indigo-300 border-indigo-300 text-cyan-300 border-cyan-300 text-teal-300 border-teal-300 text-emerald-300 border-emerald-300 text-green-300 border-green-300 text-lime-300 border-lime-300 text-sky-300 border-sky-300 text-amber-300 border-amber-300 text-orange-300 border-orange-300 "></div>
 
                     <h1 class="font-bold text-3xl lg:text-4xl mb-10">
                     {{$post->title}}
